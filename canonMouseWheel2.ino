@@ -2,6 +2,7 @@
 // include the library code:
 #include <LiquidCrystal.h>
 
+
 // initialize the library with the numbers of the GPIO interface pins
 // I/O Pins
 // 0 - Rx serial
