@@ -1,3 +1,4 @@
+//////////////////////////////////////////////////////////////////////////////
 // include the library code:
 #include <LiquidCrystal.h>
 
@@ -116,7 +117,7 @@ void setup() {
   pinMode(shutterButton, INPUT_PULLUP);     
   pinMode(focusButton,   INPUT_PULLUP);     
 
-  // initialize serial communication at 9600 bits per second:
+  // initialize serial communication at 115200 bits per second:
   Serial.begin(115200);
 
  // set up the LCD's number of columns and rows:
