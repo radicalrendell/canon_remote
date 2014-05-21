@@ -118,8 +118,8 @@ void setup() {
   pinMode(shutterButton, INPUT_PULLUP);     
   pinMode(focusButton,   INPUT_PULLUP);     
 
-  // initialize serial communication at 115200 bits per second:
-  Serial.begin(115200);
+  // initialize serial communication at 9600 bits per second:
+  Serial.begin(9600);
 
  // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);  
